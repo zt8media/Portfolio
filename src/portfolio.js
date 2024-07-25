@@ -130,10 +130,7 @@ const educationInfo = {
       subHeader: "Associate in Arts",
       duration: "Augus 2013 - May 2017",
       desc: "Went to an early college, so graduated with my associate's and high school diploma at the same time.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+    
     },
     {
       schoolName: "University of North Carolina Greensboro",
