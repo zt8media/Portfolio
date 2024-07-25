@@ -22,7 +22,7 @@
     "react-test-renderer": "^18.3.1",
     "react-twitter-embed": "^4.0.4",
     "sass": "^1.77.8"
-}
+},
 
   "scripts": {
     "predeploy": "npm run build",
