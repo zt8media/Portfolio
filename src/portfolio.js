@@ -20,26 +20,22 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Zariyah Tate",
+  title: "Hi I'm Zariyah Tate",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    " My interest in technology stems from a desire to blend creative problem-solving with technical acumen to build solutions that make a difference. With a background in digital media and project management, I’ve been able to empower students as a Technology Teacher and drive brand growth as a Marketing Assistant. I am driven by the challenge of integrating my technical skills with leadership experience to push the boundaries in innovative tech environments. Let’s connect and explore how we can collaborate on future tech projects!."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/zt8media",
+  linkedin: "https://www.linkedin.com/in/zariyahtate/",
+  gmail: "zt8media@gmail.com",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -48,15 +44,15 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "Languages",
+  subTitle: "These are the languages I know for now!",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Develop interactive front-end and back-end architectures for web applications."
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Implement SQL connections and API integrations to enhance functionality."),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Commit to continuous learning to improve skills in existing and new programming languages."
     )
   ],
 
@@ -88,10 +84,7 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
     },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
+  
     {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
@@ -105,17 +98,23 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-aws"
     },
     {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
+      skillName: "GitHub",
+      fontAwesomeClassname: "fab fa-github"
     },
     {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
+      skillName: "GitLab",
+      fontAwesomeClassname: "fab fa-gitlab"
     },
     {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
+      skillName: "Excel",
+      fontAwesomeClassname: "fab fa-microsoft"
+    },
+    {
+      skillName: "Google Workspace",
+      fontAwesomeClassname: "fab fa-google"
+    },
+  
+  
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -126,23 +125,23 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "Wayne Community College",
+      logo: require("./assets/images/WayneCommunity.png"),
+      subHeader: "Associate in Arts",
+      duration: "Augus 2013 - May 2017",
+      desc: "Went to an early college, so graduated with my associate's and high school diploma at the same time.",
       descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "University of North Carolina Greensboro",
+      logo: require("./assets/images/UNCG.webp"),
+      subHeader: "Bachelor of Arts, Media Studies",
+      duration: "August 2017 - May 2020",
+      desc: "Particpated in multiple volunteer hours throughout my time here",
+      descBullets: ["Worked on set as a Production Assistant for Quilla Saggetarius' music video."]
     }
   ]
 };
@@ -150,7 +149,7 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: false, //Set it to true to show Proficiency Section
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
@@ -165,7 +164,7 @@ const techStack = {
       progressPercentage: "60%"
     }
   ],
-  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+  displayCodersrank: true // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
 
 // Work experience section
@@ -174,29 +173,39 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      role: "Coding Apprentice",
+      company: "Road to Hire",
+      companylogo: require("./assets/images/R2H.jpeg"),
+      date: "March 2024 – Present",
+      desc: "As a Coding Apprentice at Road to Hire, I dove into a rigorous and intensive coding program, mastering a broad array of technologies. This comprehensive training sharpened my abilities to tackle complex problems and craft effective solutions. My experience has thoroughly prepared me to excel in dynamic and innovative tech environments.",
+      
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Technology/Computer Science Teacher",
+      company: "Bonnie Cone Leadership Academy",
+      companylogo: require("./assets/images/BonnieCone.png"),
+      date: "Dec 2023 – March 2024",
+      desc: "As a Technology Teacher at Bonnie Cone Academy, I specialized in teaching Microsoft Office, HTML, and CSS to empower students with essential web development skills. I developed a media literacy curriculum leveraging cutting-edge technology to prepare students for the digital world. Additionally, I enhanced their design and multimedia capabilities with Adobe applications and fostered keyboarding proficiency, laying a foundation for success in various technological fields."
     },
     {
-      role: "Software Engineer Intern",
+      role: "Marketing Assistant",
+      company: "The Schiele Museum of Natural History & Planetarium",
+      companylogo: require("./assets/images/Schiele.jpeg"),
+      date: "Dec 2022 – Dec 2023",
+      desc: "I spearheaded media coordination and event planning, significantly boosting event exposure and visitor engagement. I managed the museum’s website development, enhancing its performance through regular maintenance and detailed analytics. Additionally, I produced engaging video content for social media, utilizing tools like Canva and Adobe Creative Cloud, which led to a 15% increase in positive audience sentiment."
+    },
+    {
+      role: "Lead Counselor & Project Manager",
       company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
+      companylogo: require("./assets/images/GirlsRock.jpeg"),
+      date: "May – August 2018-2022(Summers Only)",
+      desc:"I directed and mentored a team of 10 staff members, overseeing the development and management of diverse camp programs. My leadership fostered a collaborative environment, significantly boosting staff performance and morale, reflected by a 97% positive review score. Additionally, I managed the coordination and execution of camp events and enhanced our online presence by sharing engaging photos and videos on social media."    },
+    {
+      role: "Media Consultant",
+      company: "Univeristy of North Carolina Greensboro(Media Commons)",
+      companylogo: require("./assets/images/uncgmedia.jpeg"),
       date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc:"I organized and managed library-sponsored events, attracting over 50 students per event through meticulous planning and execution. I conducted training sessions on Adobe Creative Cloud, 3D printing, and Microsoft programming, boosting participants' digital competencies. Additionally, I collaborated with various university departments to enhance official university websites, improving user engagement and aesthetics." ,
     }
   ]
 };
@@ -212,29 +221,66 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Projects",
+  subtitle: "Some Projects/Apps created within the Road to Hire Program",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/Sprout.png"),
+      projectName: "Sprout",
+      projectDesc: "Ecommerce Project Version One. I created this using HTML,CSS, and Vanilla Javascript used a JSON file to populate products",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://main.d1uahb7ssip2in.amplifyapp.com/"
+        },
+        {
+          name: "Github Repo",
+          url: "https://github.com/zt8media/SPROUT"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/FTR.png"),
+      projectName: "For The Record",
+      projectDesc: " Ecommerce Project Version Two: I created this using React.js powered by Vite. It includes a database connection using phpMyAdmin, as well as the Spotify API to power previews, and JavaScript.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://for-the-record.onrender.com/"
+        },
+        {
+          name: "Github Repo",
+          url: "https://github.com/zt8media/For-The-Record2"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/BudgetTracker.png"),
+      projectName: "Budget Tracker",
+      projectDesc: " Personal Budget Tracker Application using HTML,CSS,Javasript and Javascript chartjs",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://main.d2e7bj70kypz19.amplifyapp.com/"
+        },
+        {
+          name: "Github Repo",
+          url: "https://github.com/zt8media/Budget-Tracker"
+        }
+      ]
+    }, {
+      image: require("./assets/images/CC.png"),
+      projectName: "Coastal Cleanup",
+      projectDesc: "Team lead of a group project that placed first in the Hope Hacks Hackathon. Incorporated three APIs, including Voice Recognition, using HTML, Vanilla JavaScript, SASS, and a remote database with SQL, as well as JavaScript libraries and npm packages.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://coastal-cleanup.onrender.com/home/"
+        },
+        {
+          name: "Github Repo",
+          url: "https://github.com/zt8media/Coastal-Cleanup"
         }
       ]
     }
@@ -246,57 +292,29 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: emoji("Certifications 🏆 "),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    " Certifications I have completed",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Agile Crash Course: Agile Project Management; Agile Delivery",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+        "The key concepts and tools of Agile Development, Agile Project Delivery and Agile Project Management",
+      image: require("./assets/images/udemy.jpg"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
-        {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
+ 
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Growth Driven Design",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+        "I successfully completed the Growth-Driven Design certification on HubSpot, scoring 53 out of 54. This certification covers the fundamentals of a data-driven approach to web design that emphasizes iterative improvements based on user feedback and analytics to optimize website performance continuously.",
+      image: require("./assets/images/GDDC.png"),
+      imageAlt: "Growth Driven Design",
       footerLink: [
-        {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
-      ]
-    },
-
-    {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
-      footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
+        
       ]
     }
   ],
@@ -371,9 +389,9 @@ const resumeSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+    "Let's Connect",
+  number: "(919)928-2225",
+  email_address: "zt8media@gmail.com"
 };
 
 // Twitter Section
@@ -383,7 +401,7 @@ const twitterDetails = {
   display: true // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
