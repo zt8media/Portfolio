@@ -4,6 +4,7 @@
 
 import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
+import '/Users/zariyahtate/Desktop/Portfolio/developerFolio/src/Gretting.scss'
 
 // Splash Screen
 
@@ -22,13 +23,15 @@ const illustration = {
 const greeting = {
   username: "Zariyah Tate",
   title: "Hi I'm Zariyah Tate",
-  subTitle: emoji(
-    " My interest in technology stems from a desire to blend creative problem-solving with technical acumen to build solutions that make a difference. With a background in digital media and project management, I’ve been able to empower students as a Technology Teacher and drive brand growth as a Marketing Assistant. I am driven by the challenge of integrating my technical skills with leadership experience to push the boundaries in innovative tech environments. Let’s connect and explore how we can collaborate on future tech projects!."
+  subTitle: (
+    <span>
+      My interest in technology stems from a desire to blend <em>creative problem-solving</em> with <em>technical acumen</em> to build solutions that <i>make a difference</i>. With a background in <em>digital media</em> and <em>project management</em>, I’ve been able to empower students as a <i>Technology Teacher</i> and drive brand growth as a <i>Marketing Assistant</i>. I am driven by the challenge of integrating my <em>technical skills</em> with <em>leadership experience</em> to push the boundaries in innovative tech environments. Let’s connect and explore how we can collaborate on future tech projects!
+    </span>
   ),
-  resumeLink:
-    "", // Set to empty to hide the button
+  resumeLink: "", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
+
 
 // Social Media Links
 
